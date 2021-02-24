@@ -1,0 +1,12 @@
+.intro__list {
+    font-family: 'Inter-Bold';
+    font-size: 12px;
+    line-height: 18px;
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+}
+
+ul>li span:first-child {
+    font-family: 'Inter-Regular'
+}
