@@ -1,0 +1,16 @@
+.header__lang-link {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 9px;
+}
+
+.header__lang-link:focus {
+    text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+
