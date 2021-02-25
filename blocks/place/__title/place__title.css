@@ -1,0 +1,9 @@
+.place__title {
+    grid-column: 1/2;
+    max-width: 460px;
+    font-family: 'Inter-Black';
+    font-size: 72px;
+    line-height: 76px;
+    color: #fff;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+.place__paragraph {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #fff;
+  font-family: 'Inter-Regular';
+  font-size: 18px;
+  font-style: normal;
+  line-height: 29px;
+}
+
+.place__paragraph > p {
+  margin: 0 0 26px 0;
+}

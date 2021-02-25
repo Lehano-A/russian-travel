@@ -1,0 +1,27 @@
+.place__link {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  border-bottom: 1px #fff solid;
+  text-decoration: none;
+  
+}
+
+.place__link:link {
+  color: #fff;
+}
+
+.place__link:hover {
+  color: #fff;
+
+}
+
+.place__link:visited {
+  color: #fff;
+}
+
+.place__link:focus {
+  color: rgb(200, 200, 200);
+  
+}
