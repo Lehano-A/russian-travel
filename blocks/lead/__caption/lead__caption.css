@@ -21,6 +21,6 @@
 @media screen and (max-width: 767px) {
     .lead__caption {
         margin-left: 16px;
-        min-width: calc(100%-16px);
+        min-width: calc(100% - 16px);
     }
 }

@@ -5,12 +5,11 @@
     max-width: 1184px;
     min-width: 288px;
     padding: 28px 48px 56px;
+    border: 1px red solid;
 }
 
 @media screen and (max-width: 1279px) {
     .header {
-        padding-left: 24px;
-        padding-right: 24px;
         padding-bottom: 48px;
         min-width: 928px;
     }
