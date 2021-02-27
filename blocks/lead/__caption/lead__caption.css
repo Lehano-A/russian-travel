@@ -1,11 +1,26 @@
 .lead__caption {
- color: #fff;   
- align-self: flex-start;
- font-family: 'Inter-Regular';
- font-style: normal;
- font-size: 10px;
- line-height: 14px;
- letter-spacing: 0.15em;
- text-transform: uppercase;
- margin: 8px 0 0 0;
+    color: #fff;
+    align-self: flex-start;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 8px 0 0 0;
+    min-width: 158px;
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        margin-left: 24px;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        margin-left: 16px;
+        min-width: calc(100%-16px);
+    }
 }

@@ -2,5 +2,32 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 28px 48px 56px;
+    max-width: 1184px;
+    min-width: 288px;
+    padding: 28px 48px 56px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 48px;
+        min-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        min-width: 700px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        min-width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 48px;
+        padding-top: 16px;
+    }
 }
