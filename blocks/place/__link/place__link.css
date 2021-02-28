@@ -13,8 +13,7 @@
 }
 
 .place__link:hover {
-  color: #fff;
-  opacity: 70%;
+  opacity: 80%;
 }
 
 .place__link:visited {
