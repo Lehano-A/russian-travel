@@ -1,0 +1,32 @@
+.header__lang-link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header__lang-link:link {
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
+}
+
+.header__lang-link:visited {
+  color: #fff;
+}
+
+.header__lang-link:focus {
+  color: rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
